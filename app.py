@@ -7,8 +7,8 @@ import streamlit as st
 from PIL import Image, ImageOps
  
 import openai
-os.environ["OPENAI_API_KEY"] = st.secrets["apikey"]
-#openai.api_key=  st.secrets["apikey"]
+
+openai.api_key=  st.secrets["apikey"]
 
 st.title('😃😍🤩😉😎DALLE: Revolutionary AI-Powered Learning Platform')
 
