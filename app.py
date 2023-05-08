@@ -9,8 +9,7 @@ from apikey import apikey
 import openai
 os.environ['OPENAI_API_KEY'] = apikey
 model_engine = "text-davinci-003"
-
-openai.api_key="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"
+os.environ['OPENAI_API_KEY'] = st.secrets["apikey"]
 
 st.title('😃😍🤩😉😎DALLE: Revolutionary AI-Powered Learning Platform')
 
