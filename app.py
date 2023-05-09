@@ -10,7 +10,7 @@ import openai
 
 openai.api_key=  st.secrets["apikey"]
 
-st.title('😃😍🤩😉😎DALLE: Revolutionary AI-Powered Learning Platform')
+st.title('😃😍🤩😉😎DALL-E: Generative AI -TEXT PROMPTS TO IMAGE')
 
 prompts = st.text_input('Type the prompt')
 
